@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
   console.log(path);
   return (
     <>
+      <Navbar />
       {children}
       <Footer />
     </>

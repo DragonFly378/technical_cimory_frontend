@@ -11,15 +11,14 @@ const Button = ({
   btnType,
   style,
   text,
-  icon,
+  icon: Icon,
+  iconStyle,
   onClick,
 }) => {
   const variants = {
-    auth: "login py-2.5 px-3.5  rounded-md hover:border hover:border-white hover:bg-transparent hover:text-white hover:border-2 transition ease-in-out delay-150",
     primary:
-      "primary py-[10px] px-[10px] md:py-[10px] md:px-[20px]  flex gap-x-3 rounded-md ",
-    secondary:
-      "secondary py-[10px] px-[10px] md:py-[10px] md:px-[20px]  flex gap-x-3  border-b-2 ",
+      "flex gap-x-2 md:text-lg text-sm px-5 md:px-8 py-1 md:py-3 my-auto bg-tertiary rounded-md md:rounded-xl",
+    secondary: "px-5 md:px-8 py-1 md:py-3 my-auto bg-red",
   };
 
   return (
@@ -27,11 +26,10 @@ const Button = ({
       type={btnType}
       onClick={onClick}
       to={target}
-      className={`${variants[type]} ${style}`}
+      className={`${variants[type]} ${style} `}
     >
+      {Icon && <Icon className={`${iconStyle} my-auto`} />}
       {text}
-
-      {icon && <FontAwesomeIcon icon={icon} className="my-auto md:text-lg" />}
     </Component>
   );
 };
