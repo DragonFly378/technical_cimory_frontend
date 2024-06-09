@@ -10,11 +10,11 @@ const Jumbotron = () => {
       <section className="jumbotron-section  bg-[url('./assets/bg_jumbotron.png')] bg-cover bg-center bg-no-repeat">
         <div className="md:w-10/12 mx-auto md:py-56">
           <div className="jumbotron-content grid grid-cols-12 gap-x-12">
-            <div className="left-content col-span-6 my-auto">
+            <div className="left-content col-span-6 my-auto w-10/12">
               <h3 className="text-white md:text-base md:mb-3">
                 DAIRYLAND - Taman WIsata keluarga
               </h3>
-              <h1 className="uppercase md:text-2xl font-bold text-white md:mb-5">
+              <h1 className="uppercase md:text-3xl font-bold text-white md:mb-5">
                 Destinasi Utama Liburan Seru dan Wisata Edukasi Keluarga
                 Indonesia
               </h1>
@@ -33,7 +33,7 @@ const Jumbotron = () => {
             <div className="rigth-content col-span-6 my-auto">
               <div className="video-responsive">
                 <iframe
-                  className="w-full md:h-60 rounded-lg"
+                  className="w-full md:h-[380px] rounded-lg"
                   src="https://www.youtube.com/embed/_g0EAQafWEE?si=wjQeKOPqoyfCdTc6"
                   title="Cimory Dairyland"
                   frameBorder="0"
