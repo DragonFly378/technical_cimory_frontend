@@ -13,6 +13,7 @@ export default {
         abu: "#C5C7D8",
         merah: "#E02523",
         hitam: "#252525",
+        "abu-muda": "#EEEEF3",
       },
     },
   },

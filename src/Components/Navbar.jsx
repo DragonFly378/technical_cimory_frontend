@@ -2,7 +2,7 @@ import React from "react";
 import TicketIcon from "../assets/ticket.svg?react";
 import { Link } from "react-router-dom";
 import navLogo from "../assets/logo.png";
-import Button from "../Components/Button";
+import Button from "./Button";
 
 const Navbar = () => {
   const tabs = [
@@ -39,7 +39,7 @@ const Navbar = () => {
             iconStyle="w-5 fill-primary"
             text="BELI TIKET"
             target={"/destinasi"}
-            style="text-primary bg-tertiary "
+            style="text-primary bg-tertiary hover:text-white [&>*:nth-child(odd)]:hover:fill-white [&>*:nth-child(odd)]:transition [&>*:nth-child(odd)]:delay-150 hover:bg-merah transition ease-in-out delay-150 "
           />
         </div>
       </nav>
