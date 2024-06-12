@@ -9,8 +9,8 @@ import Button from "../../Components/Button";
 const News = () => {
   return (
     <>
-      <section className="gallery-section md:mt-40">
-        <div className="md:w-10/12 mx-auto">
+      <section className="news-section mt-16 md:mt-40">
+        <div className="w-11/12 md:w-10/12 mx-auto">
           <Header
             title="Berita dan Artikel Seru"
             caption="Baca berita terbaru, artikel menarik, dan update seputar kegiatan di Cimory Dairyland. Tetap terinformasi dengan segala hal yang terjadi di Dairyland, dari acara spesial dan promosi terbaru hingga tips liburan dan cerita inspiratif."

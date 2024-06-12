@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <section className="footer-section md:mt-40">
-        <div className="md:w-10/12 mx-auto md:py-20">
+      <section className="footer-section mt-16 md:mt-40">
+        <div className="w-11/12 md:w-10/12 mx-auto md:py-20">
           <section className="footer-content grid grid-cols-12">
             <div className="col-span-3">
               <h3 className="text-primary font-bold uppercase md:text-xl">
@@ -114,7 +114,7 @@ const Footer = () => {
           </section>
         </div>
         <div className="bg-primary py-4">
-          <div className="copyright text-center text-white">
+          <div className="copyright text-sm md:text-base text-center text-white">
             Copyright Dairyland All Right Reserved © 2024
           </div>
         </div>

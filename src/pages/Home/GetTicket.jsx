@@ -8,14 +8,14 @@ const GetTicket = () => {
   return (
     <>
       {" "}
-      <section className="gallery-section md:mt-40 bg-[url('assets/get_ticket.png')] bg-cover bg-center bg-no-repeat">
-        <div className="md:w-10/12 mx-auto md:py-52">
+      <section className="gallery-section mt-16 md:mt-40 bg-[url('assets/get_ticket.png')] bg-cover bg-center bg-no-repeat">
+        <div className="w-11/12 md:w-10/12 mx-auto py-32 md:py-52">
           <Header
             style="[&>*]:text-white "
             title="Galeri Petualangan Anda"
             caption="Nikmati pemandangan indah dan aktivitas seru yang ada di Cimory Dairyland melalui galeri kami. Lihatlah foto-foto menakjubkan dari berbagai atraksi, momen-momen seru bersama hewan, serta pemandangan alam yang memukau. "
           />
-          <div className="btn-ticket flex justify-center md:mt-10">
+          <div className="btn-ticket flex justify-center mt-5 md:mt-10">
             <Button
               as={Link}
               type="primary"

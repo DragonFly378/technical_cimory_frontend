@@ -35,14 +35,14 @@ const Promos = () => {
 
   return (
     <>
-      <section className="promos-section md:mt-40">
-        <div className="md:w-10/12 mx-auto">
+      <section className="promos-section mt-16 md:mt-40">
+        <div className="w-11/12 md:w-10/12 mx-auto">
           <Header
             title="Penawaran Spesial Bulan Ini!"
             caption="Nikmati penawaran spesial kami dan buat liburan Anda di Cimory Dairyland lebih berkesan. Dari tiket diskon hingga paket wisata eksklusif, temukan berbagai promo menarik yang akan menambah keseruan dan nilai edukatif untuk seluruh keluarga."
           />
 
-          <div className="promos-wrapper md:mt-10">
+          <div className="promos-wrapper mt-4 md:mt-10">
             <Swiper
               spaceBetween={30}
               centeredSlides={true}

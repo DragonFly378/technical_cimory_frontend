@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar-section md:absolute w-full">
+      <nav className="navbar-section hidden md:block md:absolute w-full">
         <div className="md:w-11/12 md:flex md:justify-between mx-auto md:py-5">
           <Link to="/" className="nav-brand">
             <img src={navLogo} alt="" className="w-32" />
