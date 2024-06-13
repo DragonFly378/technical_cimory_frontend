@@ -94,7 +94,7 @@ const Card = ({ image, title, location, url }) => {
           <div className={`img-destination w-[280px] md:w-full h-[180px]`}>
             <img className="w-full h-full object-cover" src={image} alt="" />
           </div>
-          <div className="desc-destination px-3 py-3 flex flex-col gap-y-5 bg-[url(assets/card_bg.svg)] bg-contain md:bg-center bg-no-repeat mt-[-5px]">
+          <div className="desc-destination px-3 py-3 flex flex-col gap-y-5 bg-[url(assets/card_bg.svg)] bg-contain md:bg-cover md:bg-bottom bg-no-repeat mt-[-5px]">
             <div className="title-loc text-white flex flex-col gap-y-1">
               <h2 className="text-lg font-bold">{title}</h2>
               <div className="location flex flex-row gap-x-1">

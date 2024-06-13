@@ -16,18 +16,18 @@ const News = () => {
             caption="Baca berita terbaru, artikel menarik, dan update seputar kegiatan di Cimory Dairyland. Tetap terinformasi dengan segala hal yang terjadi di Dairyland, dari acara spesial dan promosi terbaru hingga tips liburan dan cerita inspiratif."
           />
 
-          <section className="news-list grid grid-cols-12 md:gap-x-5 md:mt-10">
-            <div className="latest-article col-span-6">
-              <article className="news-item md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
+          <section className="news-list grid grid-cols-12 gap-y-6 md:gap-x-5 mt-4 md:mt-10">
+            <div className="latest-article col-span-12 md:col-span-6">
+              <article className="news-item rounded-xl md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
                 <div className="news-image h-80">
                   <div className="h-full bg-[url('assets/news_1.png')] bg-cover bg-center bg-no-repeat"></div>
                   {/* <img className="" src={image_2} alt="news_1" /> */}
                 </div>
-                <div className="news-content md:p-5">
-                  <h2 className="title-news md:text-3xl font-bold md:mb-3">
+                <div className="news-content p-3 md:p-5">
+                  <h2 className="title-news text-xl md:text-3xl font-bold mb-2">
                     Cek Promo Tiket Dairyland Farm Theme Park Puncak Disini!
                   </h2>
-                  <p className="desc md:text-base line-clamp-3">
+                  <p className="desc text-base line-clamp-3 mb-2">
                     Menjelajahi suasana pedesaan di Dairyland Farm Theme Park
                     Puncak adalah pilihan liburan sempurna untuk keluarga.
                     Dengan tiket promo Dairyland Farm Theme Park Puncak, kamu
@@ -39,18 +39,18 @@ const News = () => {
                 </div>
               </article>
             </div>
-            <div className="list-article col-span-6 flex flex-col gap-y-6">
+            <div className="list-article col-span-12 md:col-span-6 flex flex-col gap-y-6">
               {" "}
-              <article className="news-item md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
+              <article className="news-item rounded-xl md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
                 <div className="news-image h-44">
                   <div className="h-full bg-[url('assets/news_2.png')] bg-cover bg-center bg-no-repeat"></div>
                   {/* <img className="" src={image_2} alt="news_1" /> */}
                 </div>
-                <div className="news-content md:p-5">
-                  <h2 className="title-news md:text-xl font-bold md:mb-1">
+                <div className="news-content p-3 md:p-5">
+                  <h2 className="title-news text-xl md:text-xl font-bold mb-2">
                     5 Pilihan Spot Foto Puncak Bogor, Pecinta Foto Wajib Tahu!{" "}
                   </h2>
-                  <p className="desc md:text-sm line-clamp-2">
+                  <p className="desc text-sm line-clamp-2 mb-2">
                     Puncak Bogor terkenal dengan keindahan alamnya yang memukau,
                     udara yang sejuk, dan berbagai tempat wisata menarik. Tak
                     heran, kawasan ini menjadi destinasi favorit bagi banyak
@@ -65,16 +65,16 @@ const News = () => {
                   </div>
                 </div>
               </article>
-              <article className="news-item md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
+              <article className="news-item rounded-xl md:rounded-2xl overflow-clip shadow-[0px_0px_12.1px_#c8cae2]">
                 <div className="news-image h-44">
                   <div className="h-full bg-[url('assets/news_3.png')] bg-cover bg-center bg-no-repeat"></div>
                   {/* <img className="" src={image_2} alt="news_1" /> */}
                 </div>
-                <div className="news-content md:p-5">
-                  <h2 className="title-news md:text-xl font-bold md:mb-1">
+                <div className="news-content p-3 md:p-5">
+                  <h2 className="title-news text-xl md:text-xl font-bold mb-2">
                     3 Rekomendasi Tempat Wisata Di Puncak Untuk Liburan 2024{" "}
                   </h2>
-                  <p className="desc md:text-sm line-clamp-2">
+                  <p className="desc text-sm line-clamp-2 mb-2">
                     Puaskan selera Anda dengan hidangan lezat di restoran
                     Dairyland Riverside. Pilihan menu yang beragam, mulai dari
                     hidangan lokal khas Indonesia hingga hidangan internasional
