@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <>
       <section className="footer-section mt-16 md:mt-40">
-        <div className="w-11/12 md:w-10/12 mx-auto md:py-20">
-          <section className="footer-content grid grid-cols-12">
-            <div className="col-span-3">
-              <h3 className="text-primary font-bold uppercase md:text-xl">
+        <div className="w-11/12 md:w-10/12 mx-auto py-10 md:py-20">
+          <section className="footer-content grid grid-cols-12 md:gap-x-4 gap-y-8">
+            <div className="col-span-6 md:col-span-3">
+              <h3 className="text-primary font-bold uppercase text-lg md:text-xl">
                 Perusahaan
               </h3>
-              <div className="links-footer flex flex-col md:gap-y-2 md:mt-5">
+              <div className="links-footer flex flex-col gap-y-1 md:gap-y-2 mt-1 md:mt-5">
                 <Link
                   to={"/about"}
                   className="link-item text-primary hover:underline"
@@ -44,11 +44,11 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-span-3">
-              <h3 className="text-primary font-bold uppercase md:text-xl">
+            <div className="col-span-6 md:col-span-3">
+              <h3 className="text-primary font-bold uppercase text-lg md:text-xl">
                 Bantuan
               </h3>
-              <div className="links-footer flex flex-col md:gap-y-2 md:mt-5">
+              <div className="links-footer flex flex-col gap-y-1 md:gap-y-2 mt-1 md:mt-5">
                 <Link
                   to={"/privacy"}
                   className="link-item text-primary hover:underline"
@@ -81,12 +81,12 @@ const Footer = () => {
                 </Link>
               </div>
             </div>{" "}
-            <div className="col-span-3">
+            <div className="col-span-12 md:col-span-3">
               {" "}
-              <h3 className="text-primary font-bold uppercase md:text-xl">
+              <h3 className="text-primary font-bold uppercase text-lg md:text-xl">
                 Newsletter
               </h3>
-              <div className="links-footer flex flex-col md:gap-y-2 md:mt-5">
+              <div className="links-footer flex flex-col gap-y-2 mt-1 md:mt-5">
                 <p className="text-primary md:text-base">
                   Subscribe newsletter kami untuk informasi terbaru & terupdate
                   dari Dairyland, dan dapatkan Yoghurt Stick GRATIS!!
@@ -103,7 +103,7 @@ const Footer = () => {
                     placeholder="Masukkan email anda"
                   />
                   <button
-                    className="bg-primary text-white md:px-3 text-sm"
+                    className="bg-primary text-white px-2 md:px-3 text-sm"
                     type="submit"
                   >
                     Submit
